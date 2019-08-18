@@ -1,0 +1,23 @@
+<html>
+<head>
+    <title>Audio element</title>
+    
+</head>
+    <body>
+    <h2 style="color: blue"> HTML tag for Audio Control with Java Script </h2>
+    <audio src="audio/din.mp3" id="din"></audio>
+        <audio src="audio/humma.flac" id="humma"></audio>
+        
+        <div>
+        <button onclick="document.getElementById('din').play()">Play Audio 1</button><br>
+        <button onclick="document.getElementById('humma').play()">Play Audio 2</button><br>
+            <button onclick="document.getElementById('din').pause()">Pause Audio 1</button><br>
+            <button onclick="document.getElementById('humma').pause()">Pause Audio 2</button><br>
+            <button onclick="document.getElementById('din').volume+=0.1">Volume Up for Audio 1</button><br>
+            <button onclick="document.getElementById('humma').volume+=0.1">Volume Up for Audio 2</button><br>
+            <button onclick="document.getElementById('din').volume-=0.1">Volume Down for Audio 1</button><br>
+            <button onclick="document.getElementById('humma').volume-=0.1">Volume Down for Audio 2</button><br>
+            
+        </div>
+    </body>
+</html>

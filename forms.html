@@ -3,29 +3,67 @@
     <title> HTML forms</title>
     </head>
 <body>
-    <form>
+    <form method="post" action="index.html" id="form1" autocomplete="on">
     <label> User Name:</label>
     <input type="text" name="uname" placeholder="Enter your name"
            size="12px" maxlength="14"></br>
     <label> Password</label>
     <input type="password" name="pwd" placeholder="Enter password" size="12px" maxlength="10">
     <br>
-    <textarea rows="5" cols="24" name="tarea" id="text">
-    </textarea>
+    <p> Text Area:</p>
+    <textarea rows="5" cols="24" name="tarea" id="text" autofocus="autofocus" spellcheck="true">
+    </textarea><br>
+    <p> select:</p>
     <select> 
     <option>1</option>
         <option>2</option>
-    </select>
+    </select><br>
+    <p> Multiple select:</p>
     <select multiple="multiple"> 
     <option>1</option>
         <option>2</option>
         <option>3</option>
         <option>4</option>
-    </select>
-    <input type="color" name="clr">
-    
+    </select><br>
+    <p> input type color:</p>
+    <input  accesskey="c" type="color" name="clr"><br>
+    <p> input type range</p>
+    <input type="range" min="5" max="10" value="0">
     <br>
-    <input type="submit" value="Submit" name="sn">
+    <p> Input type search:</p>
+    <input type="search" name="key"><br>
+    <p> Input type Url:</p>
+    <input type="url" name="ur"><br>
+    <p> Input Type Image:</p>
+    <input type="image" height="40px" width="40px"><br>
+    <p> Input type File:</p>
+    <input type="file" name="img" multiple="on"><br>
+    <p> Input attribute editable: </p>
+   <p contenteditable="true" spellcheck="true"> This is a editable p tag.</p>
+    <br>
+    <p> Access key attribute:</p>
+    <input type="text" accesskey="x"><br>
+    <p> Datalist attributes:</p>
+    <input type="text" name="favcolor" list="colors">
+    <datalist id="colors">
+        <option value="Green"> Green </option>
+        <option value="Blue">Blue </option>
+        <option value="Marron">Marron</option>
+    </datalist>
+    <br>
+    <p> keygen tag:</p>
+    <keygen name="encrypt" challenge="Challange">
+    <br>
+    <input type="submit" value="Generate">
+    <br>
+    <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">Range
+        <input type="range" name="a" value="50"/>+Number+<input type="number" name="b" value="50"/>=
+        <output name="x" for="ab"></output>
+    </form>
+    
+    
+    
+    <input type="submit" value="Submit" name="sn" formenctype="multipart/form-data">
     <input type="reset">
     
     </form>
