@@ -1,0 +1,35 @@
+#color{
+    background-color: darkkhaki;
+}
+#image{
+    background-image: url(../image/1.jpg);
+     background-repeat: repeat-x;
+    background-attachment: fixed;
+    background-position: center;
+}
+form{
+    height: 500px;
+    width: 600px;
+}
+fieldset{
+
+    height: 450px;
+    width: 550px;
+}
+legend{
+    font-size: 25px;
+    color: white;
+}
+div{
+    align-items: center;
+    align-content: center;
+}
+#td{
+    color: white;
+}
+table{
+    align-content: center;
+}
+tr{
+    align-items: center;
+}
