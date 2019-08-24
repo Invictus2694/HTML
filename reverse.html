@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>resverse number</title>
+</head>
+<body>
+Enter String: <input type="text" name="string" id="input">
+<button onclick="rev()">Reverse</button>
+<p id="print"> </p>
+
+<script type="text/javascript">
+	function reverseString(str) {
+       var splitString = str.split(""); 
+   var reverseArray = splitString.reverse();  
+       var joinArray = reverseArray.join("");     
+    return joinArray; // "olleh"
+}
+
+
+function rev() {
+	var str1=document.getElementById('input').value;
+
+	document.getElementById('print').innerHTML=(reverseString(str1));
+}
+
+</script>
+
+</body>
+</html>

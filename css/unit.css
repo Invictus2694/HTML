@@ -1,30 +1,38 @@
-#em{
+#em {
     font-size: 2em;
 }
-#ex{
-    
+
+#ex {
+
     font-size: 4ex;
 }
-#px{
+
+#px {
     font-size: 20px;
 }
-#in{
+
+#in {
     font-size: 0.5in;
-    
+
 }
-#cm{
+
+#cm {
     font-size: 1cm;
 }
-#pt{
+
+#pt {
     font-size: 20pt;
 }
-#pc{
+
+#pc {
     font-size: 1pc;
 }
-#percent{
+
+#percent {
     font-size: 100%;
 }
-h3{
+
+h3 {
     text-decoration: underline;
     color: red;
 }

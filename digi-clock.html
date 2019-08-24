@@ -1,0 +1,20 @@
+<html>
+
+<head>
+    <title> Digital Clock</title>
+    <script type="text/javascript">
+        setInterval("fun1()", 1000);
+
+        function fun1() {
+            var d = new Date();
+            str = d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds();
+            document.getElementById('sp1').innerHTML = str;
+        }
+    </script>
+</head>
+
+<body>
+    <span id="sp1" style="color: green;width: 200px; height: 300px; background-color: black;font-size: 40; border: 2; border-color: red;"> </span>
+</body>
+
+</html>

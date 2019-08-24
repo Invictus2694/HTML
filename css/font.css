@@ -1,0 +1,46 @@
+div{
+    font-family: tahoma;
+    font-size: 20px;
+    font-style: oblique;
+    font-weight: bolder;
+    font-variant: small-caps;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    opacity: inherit;
+}
+p{
+  text-decoration: overline;
+    text-align: center;
+    text-indent: 50px;
+}
+#decoration{
+    text-decoration: underline;
+}
+
+#color{
+    color: red;
+    direction: rtl;
+}
+body{
+    background-color: coral;
+}
+
+.letter-space{
+    letter-spacing: 20px;
+}
+
+.word-space{
+    word-spacing: 20px;
+}
+.word-wrap{
+    word-wrap: normal;
+}
+.text-transform{
+    text-transform: capitalize;
+}
+.white-space{
+    white-space: nowrap;
+}
+.vertical-align{
+    vertical-align: middle;
+}

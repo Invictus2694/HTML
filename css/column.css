@@ -1,0 +1,9 @@
+div {
+    text-align: justify;
+    column-count: 3;
+    column-gap: 10px;
+    column-rule-width: 5px;
+    column-rule-style: solid;
+    column-rule-color: #ff0000;
+    
+}
