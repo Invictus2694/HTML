@@ -1,0 +1,46 @@
+<html>
+
+<head>
+    <title> Table Generation </title>
+</head>
+
+<body>
+
+    <input type="button" onclick="gen()" value="Generate Table">
+
+    <script>
+        function gen() {
+
+            var Jobj = [{
+                    id: 1,
+                    name: "Sumit"
+                },
+                {
+                    id: 2,
+                    name: "Adarsh"
+                },
+                {
+                    id: 3,
+                    name: "Shivam"
+                },
+                {
+                    id: 4,
+                    name: "Utkarsh"
+                }
+            ];
+
+            document.write(`
+            <table> <thead> <tr> <th> ID: </th> <th> Name: </th> </tr> </thead> <tbody>
+`);
+
+            Jobj.forEach(function(element, index) {
+                document.write(`
+<tr> <td> ${element.id}</td> <td> ${element.name} </td> </tr>
+`);
+            })
+            document.write(`</tbody> </table>`);
+        }
+    </script>
+</body>
+
+</html>
